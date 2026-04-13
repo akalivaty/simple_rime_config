@@ -1,0 +1,16 @@
+---
+name: terra_pinyin.mine
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - terra_pinyin
+...
+# ⬆️ 上面這段 YAML 設定區，所有縮排都必須用「半形空格」。
+
+# ⬇️ 下面這段開始是你的自訂發音區。
+# 每行的格式：文字【Tab】拼音讀音【Tab】權重
+# 【重要】這裡絕對不能用空格，必須是真實的 Tab 鍵！
+# 如果是多字詞，拼音之間用一個半形空格隔開。
+
+丼	dong4	100

@@ -1,0 +1,8 @@
+# https://github.com/rime/home/wiki/CustomizationGuide
+patch:
+  "switcher/hotkeys":  # 這個列表裡每項定義一個快捷鍵，使哪個都中
+    - F4
+  "menu/page_size": 10
+  "style/font_point": 30
+  "key_binder/bindings/+":
+      __patch: key_bindings:/move_by_word_with_tab

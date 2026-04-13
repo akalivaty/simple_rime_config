@@ -1,0 +1,12 @@
+patch:
+  engine/translators/@next: table_translator@custom_phrase
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 99
+
+  # 這是掛載你剛剛寫的自訂發音字典
+  translator/dictionary: terra_pinyin.mine

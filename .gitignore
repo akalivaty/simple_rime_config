@@ -1,0 +1,6 @@
+build/
+*.userdb/
+custom_phrase.txt
+installation.yaml
+user.yaml
+.DS_Store
